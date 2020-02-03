@@ -1,0 +1,168 @@
+body{
+  margin: auto;
+}
+
+html{
+  font-size:3vmin;
+  background-image: url(../images/Bobs_street_scene.jpg);
+  background-size: cover;
+}
+
+.header {
+  height: 10vh;
+  width: 85vw;
+  margin: auto;
+  text-align: center;
+  font-size: 8vmin;
+  font-family: monospace;;
+
+}
+
+.contents {
+  display: flex;
+  height: 89vh;
+  width: 85vw;
+  margin: auto;
+}
+
+ .stats {
+  width: 20%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+.statsbold{
+  text-align: center;
+}
+
+
+ aside div{
+  display:flex;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  margin: 5% 10%;
+  background-color: skyblue;
+  font-family: monospace;
+ }
+
+.main {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+.card {
+  width: 14%;
+  height: 30.33%;
+  position: relative;
+  margin: .5%;
+}
+
+.back{
+  position: absolute;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 1.25rem;
+    border: black 3.5px solid;
+    display: inline-table;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.front.gene1, .front.tina, .front.louise1, .front.linda, .front.teddy, .front.bob, .front.mort, .front.gene2, .front.louise2 {
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 1.25rem;
+    border: black 3.5px solid;
+    display: inline-table;
+    background-repeat: no-repeat;
+}
+
+.back{
+  background-image: url(../images/Bobs_burger.jpg);
+}
+
+.front.gene1{
+  background-image: url(../images/source.gif);
+}
+
+.front.tina{
+  background-image: url(../images/tina.gif);
+}
+.front.louise1{
+  background-image: url(../images/louise.gif);
+}
+
+.front.linda{
+  background-image: url(../images/linda.gif);
+}
+.front.teddy{
+  background-image: url(../images/teddy.gif);
+}
+
+.front.bob{
+  background-image: url(../images/bob.gif);
+}
+.front.mort{
+  background-image: url(../images/mort.gif);
+}
+
+.front.gene2{
+  background-image: url(../images/gene.gif);
+}
+
+.front.louise2{
+  background-image: url(../images/louise2.gif);
+}
+
+.hidden {
+  display:none;
+}
+
+.modalContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 20rem;
+    height: 14rem;
+    border-radius: 0.5rem;
+    background-image: url(..//images/you\ won.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+ .modalPopUp {
+position: absolute;
+    top: 8%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    padding: 2rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+    font-family: monospace;
+}
+
+button {
+width: 8.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+    font-family: monospace;
+    margin: 63% 11% -7% 28%;
+}

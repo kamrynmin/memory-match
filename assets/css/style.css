@@ -1,3 +1,7 @@
+header {
+font-family: 'Cabin Sketch';
+  color: red;
+}
 header,
 .stats,
 .stats-item,
@@ -19,6 +23,35 @@ header,
 .game-area {
     height: 90vh;
 }
+
+.front,
+.back {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    background-image: url(../images/Bobs_street_scene.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 40px;
+}
+
 .stats {
     width: 15%;
 }
@@ -30,36 +63,20 @@ header,
     align-content: space-evenly;
 }
 
-
-body{
-  margin: 0;
-  background-image: url(../images/Bobs_street_scene.jpg);
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-
+.stats-item {
+    height: 30%;
+    width: 90%;
+    color: red;
 }
 
-
-
- aside div{
-  display:flex;
-  border: 2px solid black;
-  border-radius: 0.5rem;
-  justify-content: center;
-  align-items: center;
-  height: 10%;
-  margin: 5% 10%;
-  background-color: skyblue;
-  font-family: monospace;
- }
-
-.main {
-  width: 80%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  }
+.stats-item > * {
+  font-family: 'Cabin Sketch';
+    background-color: yellow;
+    border: 3px solid red;
+    border-radius: 10%;
+    height: 40%;
+    width: 100%;
+}
 
 .card {
     height: 30%;
@@ -70,16 +87,21 @@ body{
     border-radius: 5%;
 }
 
-
-.back, .front.gene1, .front.tina, .front.louise1, .front.linda, .front.teddy, .front.bob, .front.mort, .front.gene2, .front.louise2 {
+.front.gene1, .front.tina, .front.louise1, .front.linda, .front.teddy, .front.bob, .front.mort, .front.gene2, .front.louise2 {
+    position: absolute;
+    background-size: cover;
     height: 100%;
     width: 100%;
     background-position: center;
-    background-size: contain;
+    border: black 3.5px solid;
+    display: inline-table;
     background-repeat: no-repeat;
-  }
+}
 
 .back{
+      border: black 3.5px solid;
+  position: absolute;
+  background-color: white;
   background-image: url(../images/Bobs_burger.jpg);
 }
 
@@ -157,6 +179,7 @@ width: 8.5rem;
     margin: 63% 11% -7% 28%;
 }
 
+
 @media only screen and (max-device-width: 1024px) and (orientation: portrait),
 (max-width: 560px) {
 
@@ -170,7 +193,7 @@ width: 8.5rem;
         height: 100%;
         width: 100%;
         background-position: center;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 
@@ -200,8 +223,9 @@ width: 8.5rem;
     .stats-item {
         width: 30%;
         height: 90%;
-        background-color: rgba(38, 55, 71, 0.9);
-        border: 3px solid lightblue;
+  font-family: 'Cabin Sketch';
+    background-color: yellow;
+    border: 3px solid red;
         border-radius: 10%;
     }
 

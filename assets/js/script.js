@@ -96,16 +96,15 @@ function shuffleCards() {
 
 
   while (frontOfCards.length > 0) {
-    var addCard = $('<div>').addClass('card');//add a div with a class of card
-    var addFront = $('<div>').addClass('front');//add a div with a class of front
-    var addBack = $('<div>').addClass('back');// add a div with a class of back
+    var addCard = $('<div>').addClass('card');
+    var addFront = $('<div>').addClass('front');
+    var addBack = $('<div>').addClass('back');
 
     var shuffleImages = Math.floor(Math.random() * frontOfCards.length);
     var takeOutCard = frontOfCards.splice(shuffleImages, 1);
 
     var putCard = addFront.addClass(takeOutCard);
-    console.log('shuffle');
-    $('.main').append((addCard).append(addFront, addBack));
+    $('.game-area').append((addCard).append(addFront, addBack));
 
   }
 

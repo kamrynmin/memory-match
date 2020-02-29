@@ -16,8 +16,7 @@ Try the application live at [https://memorymatch.kamrynmin.com](https://memoryma
 ## Features
 
 - User can win by matching all the card pairs.
-- User can shuffle cards.
-- User can reset the game.
+- User can reset the game and cards will shuffle.
 
 ## Preview
 

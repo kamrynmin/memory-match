@@ -20,7 +20,7 @@ Try the application live at [https://memorymatch.kamrynmin.com](https://memoryma
 
 ## Preview
 
-![memory-match](/images/Preview.png)
+![memory-match](assets/images/Preview.png)
 
 ## Development
 

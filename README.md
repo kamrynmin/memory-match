@@ -1,5 +1,6 @@
-# Memory Match
+# Bob's Burgers Memory Match
 
+A Bob's Burgers themed memory match game that shares statistics and dynamically shuffles cards after every round.
 
 
 ## Technologies Used
